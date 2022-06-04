@@ -61,7 +61,6 @@ app.use(express.json());
 const port = process.env.PORT || 3000;
 
 app.get("/api/v1",(req,res)=>{
-    console.log("nginx c dla balle");
     res.send("<h1>Wesh la zoone alors ça marche ??</h1>");
 })
 
