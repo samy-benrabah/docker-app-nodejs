@@ -61,7 +61,7 @@ app.use(express.json());
 const port = process.env.PORT || 3000;
 
 app.get("/api/v1",(req,res)=>{
-    res.send("<h1>Wesh la zoone alors ça marche ??</h1>");
+    res.send("<h1>Hello world</h1>");
 })
 
 app.use("/api/v1/posts",postRouter);
